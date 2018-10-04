@@ -9,6 +9,7 @@ class Calculator extends Component {
     // this binding is necessary to make `this` work in the callback
     // however, it is unnessary in this app because each button will
     // handle the event by passing the event object to each corresponding method
+    // see: https://reactjs.org/docs/handling-events.html
     // this.handleClick = this.handleClick.bind(this);
   }
   
